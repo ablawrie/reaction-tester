@@ -1,6 +1,6 @@
 # reaction-tester
 
-The game is a reaction tester.
+Test you reaction time!
 
-It places various colored shapes on the screen in random places.
-Measures the how long it takes the user to click on the shape.
+This will place a colored square or a circle on the screen in a random place.
+It will measure the how long it takes the user to click on the shape.
