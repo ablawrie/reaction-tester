@@ -4,4 +4,7 @@
 	background-color: red;
 	color: black;
 	display: none;
+	position: absolute;
+	top: 50px;
+	left: 20px;
 }
