@@ -1,14 +1,19 @@
-h1{
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.bold{
+	font-weight: bold;
 	text-align: center;
 }
 
-#box {
-	width: 250px;
-	height: 250px;
+#shape {
+	width: 200px;
+	height: 200px;
 	background-color: red;
 	color: black;
 	display: none;
-	position: absolute;
+	position: relative;
 	top: 50px;
 	left: 20px;
+	border-radius: 0%;
 }
