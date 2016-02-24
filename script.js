@@ -21,7 +21,6 @@ var createdTime,
 function makeShape(){
 	var s = document.getElementById("shape");
 	//Timestamp
-	createdTime = Date.now();
 	var x = Math.random();
 	x = x * 5000;
 	//Change Position
@@ -32,6 +31,7 @@ function makeShape(){
 	//Shape Creation
 	setTimeout(function(){ 
 		s.style.display = "block";
+		createdTime = Date.now();
 		s.style.borderRadius = getCircle();
 		s.style.backgroundColor = getRandomColor();
 		s.style.top = py+"px";
